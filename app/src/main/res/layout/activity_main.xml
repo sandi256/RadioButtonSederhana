@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah Bahasa Pemrograman Untuk Aplikasi Android?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+         />
+
+    <RadioGroup
+        android:id="@+id/rgJawaban1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+    <RadioButton
+        android:id="@+id/jwb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML dan C++"
+        />
+    <RadioButton
+        android:id="@+id/jwb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML dan PHP"
+        />
+    <RadioButton
+        android:id="@+id/jwb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML dan Java"
+        />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnJawab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAWAB"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
+
